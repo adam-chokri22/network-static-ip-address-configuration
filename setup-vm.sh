@@ -7,7 +7,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 read -p "Enter new username: " NEWUSER
-read -p "Enter new IP (e.g., 192.168.50.15/24): " NEWIP
+read -p "Enter new IP (e.g., 192.168.50.15/24) dont forget the /24: " NEWIP
 read -p "Enter gateway (e.g., 192.168.50.1): " GATEWAY
 
 # Step 1: Reset machine-id
